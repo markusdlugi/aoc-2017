@@ -20,4 +20,4 @@ for i in range(12_386_363):
 print(sum(x for x in tape.values()))
 
 end = timer()
-print(f'Took {end - start} seconds.')
+#print(f'Took {end - start} seconds.')

@@ -19,10 +19,10 @@ count = 0
 a_gen, b_gen = generate(a, mod, False), generate(b, mod, False)
 print(sum(next(a_gen) == next(b_gen) for i in range(40_000_000)))
 end = timer()
-print(f'Took {end - start} s.')
+#print(f'Took {end - start} s.')
 
 start = timer()
 a_gen, b_gen = generate(a, mod, True), generate(b, mod, True)
 print(sum(next(a_gen) == next(b_gen) for i in range(5_000_000)))
 end = timer()
-print(f'Took {end - start} s.')
+#print(f'Took {end - start} s.')
